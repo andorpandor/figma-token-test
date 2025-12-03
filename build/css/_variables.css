@@ -1,0 +1,23 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --sd-global-primitives-color-core-blue-100: #d9e9ff;
+  --sd-global-primitives-color-core-blue-950: #061629;
+  --sd-responsive-small-440-screen-width: 393;
+  --sd-responsive-small-440-font-size-regular: 16;
+  --sd-responsive-small-440-font-lineheight-regular: 20;
+  --sd-responsive-small-440-font-weight-normal: 450;
+  --sd-responsive-small-440-font-weight-bold: 750;
+  --sd-responsive-medium-1024-screen-width: 1024;
+  --sd-responsive-medium-1024-font-size-regular: 18;
+  --sd-responsive-medium-1024-font-lineheight-regular: 24;
+  --sd-responsive-medium-1024-font-weight-normal: 425;
+  --sd-responsive-medium-1024-font-weight-bold: 700;
+  --sd-responsive-large-1280-screen-width: 1280;
+  --sd-responsive-large-1280-font-size-regular: 20;
+  --sd-responsive-large-1280-font-lineheight-regular: 28;
+  --sd-responsive-large-1280-font-weight-normal: 400;
+  --sd-responsive-large-1280-font-weight-bold: 650;
+}
