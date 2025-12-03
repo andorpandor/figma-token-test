@@ -1,9 +1,11 @@
+
+
 {
   "source": ["tokens/**/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "prefix": "sd",
+      "prefix": "",
       "buildPath": "build/css/",
       "files": [
         {
