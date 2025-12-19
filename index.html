@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Tokens Test</title>
+    <!-- Reference generated variables -->
+    <link rel="stylesheet" href="build/css/_variables.css">
+    <style>
+        /* 
+           Helper to handle unitless values if necessary. 
+           Most browsers need units for spacing. 
+           We assume values are in pixels.
+        */
+        :root {
+            /* Base styles */
+            font-family: var(--typographyFontFamily), system-ui, sans-serif;
+            background-color: var(--surfaceLower);
+            color: var(--textBase);
+            /* Handle potential unitless spacing variables by multiplying by 1px */
+            --space-small: calc(var(--spacing4) * 1px);
+            --space-base: calc(var(--spacing8) * 1px);
+            --space-medium: calc(var(--spacing16) * 1px);
+            --space-large: calc(var(--spacing24) * 1px);
+            --space-xlarge: calc(var(--spacing32) * 1px);
+        }
+
+        body {
+            margin: 0;
+            padding: var(--space-xlarge);
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 1024px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-xlarge);
+        }
+
+        h1, h2 {
+            margin-top: 0;
+            color: var(--primitivesColorCoreBlue900);
+        }
+
+        /* Card Component */
+        .card {
+            background-color: var(--primitivesColorBaseWhite);
+            border-radius: calc(var(--radiusMedium) * 1px);
+            padding: var(--space-large);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border: 1px solid var(--primitivesColorAltGray100);
+        }
+
+        /* Button Component */
+        .btn-primary {
+            background-color: var(--buttonPrimaryBackground);
+            color: var(--buttonPrimaryForeground);
+            padding: var(--space-base) var(--space-medium);
+            border: none;
+            border-radius: calc(var(--radiusSmall) * 1px);
+            font-weight: var(--typographyFontSizeFontWeightBold);
+            font-size: calc(var(--typographyFontSizeBase) * 1px);
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+
+        .btn-primary:hover {
+            opacity: 0.9;
+        }
+
+        /* Color Grid */
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: var(--space-medium);
+            margin-top: var(--space-medium);
+        }
+
+        .color-card {
+            border: 1px solid var(--primitivesColorAltGray200);
+            border-radius: calc(var(--radiusSmall) * 1px);
+            overflow: hidden;
+            background: white;
+        }
+
+        .color-swatch {
+            height: 100px;
+            width: 100%;
+        }
+
+        .color-info {
+            padding: var(--space-small);
+            font-size: 12px;
+            color: var(--textSubtle);
+        }
+
+        .color-name {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .token-name {
+            font-family: monospace;
+            background: var(--primitivesColorAltGray50);
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Design Systems Token Test</h1>
+            <p>This page demonstrates the tokens generated from <span class="token-name">build/css/_variables.css</span>.</p>
+        </header>
+
+        <section class="card">
+            <h2>Primary Actions</h2>
+            <p>Using <code>--buttonPrimaryBackground</code> and <code>--radiusSmall</code></p>
+            <button class="btn-primary">Primary Button</button>
+        </section>
+
+        <section class="card">
+            <h2>Brand Blueprint</h2>
+            <div class="color-grid">
+                <!-- Blue Spectrum -->
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: var(--primitivesColorCoreBlue500)"></div>
+                    <div class="color-info">
+                        <span class="color-name">Core Blue 500</span>
+                        <code>--primitivesColorCoreBlue500</code>
+                    </div>
+                </div>
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: var(--primitivesColorCoreBlue750)"></div>
+                    <div class="color-info">
+                        <span class="color-name">Core Blue 750</span>
+                        <code>--primitivesColorCoreBlue750</code>
+                    </div>
+                </div>
+                <!-- Mint Spectrum -->
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: var(--primitivesColorWarmMint400)"></div>
+                    <div class="color-info">
+                        <span class="color-name">Warm Mint 400</span>
+                        <code>--primitivesColorWarmMint400</code>
+                    </div>
+                </div>
+                <!-- Pink Spectrum -->
+                <div class="color-card">
+                    <div class="color-swatch" style="background-color: var(--primitivesColorWarmPink500)"></div>
+                    <div class="color-info">
+                        <span class="color-name">Warm Pink 500</span>
+                        <code>--primitivesColorWarmPink500</code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Typography</h2>
+            <div style="display: flex; flex-direction: column; gap: var(--space-medium);">
+                <div>
+                    <span style="font-size: calc(var(--typographyFontSizeXLarge) * 1px); font-weight: var(--typographyFontSizeFontWeightBold);">Heading X-Large</span>
+                    <br>
+                    <code class="token-name">--typographyFontSizeXLarge</code>
+                </div>
+                <div>
+                    <span style="font-size: calc(var(--typographyFontSizeLarge) * 1px);">Heading Large</span>
+                    <br>
+                    <code class="token-name">--typographyFontSizeLarge</code>
+                </div>
+                <div>
+                    <span style="font-size: calc(var(--typographyFontSizeBase) * 1px);">Body Base</span>
+                    <br>
+                    <code class="token-name">--typographyFontSizeBase</code>
+                </div>
+                <div>
+                    <span style="font-size: calc(var(--typographyFontSizeSmall) * 1px);">Body Small</span>
+                    <br>
+                    <code class="token-name">--typographyFontSizeSmall</code>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
