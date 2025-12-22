@@ -212,6 +212,7 @@ public enum StyleDictionaryEnum {
     public static let spacing88 = 88
     public static let spacingNone = 0
     public static let strokeAccent = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 0.4)
+    public static let surfaceBase = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let surfaceDarkenLower = UIColor(red: 0.024, green: 0.086, blue: 0.161, alpha: 1)
     public static let surfaceLower = UIColor(red: 0.933, green: 0.961, blue: 1.000, alpha: 1)
     public static let textBase = UIColor(red: 0.024, green: 0.086, blue: 0.161, alpha: 1)

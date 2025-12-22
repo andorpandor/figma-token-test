@@ -185,6 +185,7 @@ object StyleDictionaryColor {
   val primitivesColorYellow900 = Color(0xff332a00)
   val primitivesColorYellow950 = Color(0xff1a1500)
   val strokeAccent = Color(0x66ffffff)
+  val surfaceBase = Color(0xffffffff)
   val surfaceDarkenLower = Color(0xff061629)
   val surfaceLower = Color(0xffeef5ff)
   val textBase = Color(0xff061629)

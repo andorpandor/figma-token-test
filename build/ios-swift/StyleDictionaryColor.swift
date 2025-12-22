@@ -184,6 +184,7 @@ public enum StyleDictionaryColor {
     public static let primitivesColorYellow900 = UIColor(red: 0.200, green: 0.165, blue: 0.000, alpha: 1)
     public static let primitivesColorYellow950 = UIColor(red: 0.102, green: 0.082, blue: 0.000, alpha: 1)
     public static let strokeAccent = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 0.4)
+    public static let surfaceBase = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let surfaceDarkenLower = UIColor(red: 0.024, green: 0.086, blue: 0.161, alpha: 1)
     public static let surfaceLower = UIColor(red: 0.933, green: 0.961, blue: 1.000, alpha: 1)
     public static let textBase = UIColor(red: 0.024, green: 0.086, blue: 0.161, alpha: 1)

@@ -180,6 +180,7 @@
   <color name="text_subtle">#ff62717d</color>
   <color name="surface_lower">#ffeef5ff</color>
   <color name="surface_darken_lower">#ff061629</color>
+  <color name="surface_base">#ffffffff</color>
   <color name="fill_subtle">#ff0c366c</color>
   <color name="fill_subtle_2">#ffd9e9ff</color>
   <color name="stroke_accent">#66ffffff</color>

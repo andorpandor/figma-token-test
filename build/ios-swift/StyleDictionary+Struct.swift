@@ -212,6 +212,7 @@ internal struct StyleDictionaryStruct {
     internal static let spacing88 = 88
     internal static let spacingNone = 0
     internal static let strokeAccent = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 0.4)
+    internal static let surfaceBase = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     internal static let surfaceDarkenLower = UIColor(red: 0.024, green: 0.086, blue: 0.161, alpha: 1)
     internal static let surfaceLower = UIColor(red: 0.933, green: 0.961, blue: 1.000, alpha: 1)
     internal static let textBase = UIColor(red: 0.024, green: 0.086, blue: 0.161, alpha: 1)

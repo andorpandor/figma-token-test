@@ -185,6 +185,7 @@ TextBase,
 TextSubtle,
 SurfaceLower,
 SurfaceDarkenLower,
+SurfaceBase,
 FillSubtle,
 FillSubtle2,
 StrokeAccent
