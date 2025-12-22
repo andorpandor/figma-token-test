@@ -11,7 +11,7 @@ import UIKit
 public class StyleDictionaryClass {
     public static let base = 8
     public static let buttonPrimaryBackground = UIColor(red: 0.392, green: 0.608, blue: 0.886, alpha: 1)
-    public static let buttonPrimaryForeground = UIColor(red: 0.027, green: 0.231, blue: 0.518, alpha: 1)
+    public static let buttonPrimaryForeground = UIColor(red: 0.039, green: 0.137, blue: 0.263, alpha: 1)
     public static let fillSubtle = UIColor(red: 0.047, green: 0.212, blue: 0.424, alpha: 1)
     public static let fillSubtle2 = UIColor(red: 0.851, green: 0.914, blue: 1.000, alpha: 1)
     public static let gapBase = 8

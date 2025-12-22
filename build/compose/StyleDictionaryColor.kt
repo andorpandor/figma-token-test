@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.*
 
 object StyleDictionaryColor {
   val buttonPrimaryBackground = Color(0xff649be2)
-  val buttonPrimaryForeground = Color(0xff073b84)
+  val buttonPrimaryForeground = Color(0xff0a2343)
   val fillSubtle = Color(0xff0c366c)
   val fillSubtle2 = Color(0xffd9e9ff)
   val primitivesColorAltBlue100 = Color(0xffd4eefc)
