@@ -32,6 +32,10 @@
             line-height: 1.5;
         }
 
+        * {
+            text-box-trim: trim-both;
+        }
+
         .container {
             max-width: 1024px;
             margin: 0 auto;
@@ -42,8 +46,9 @@
 
         h1,
         h2,
-        h3 {
-            margin-top: 0;
+        h3,
+        p {
+            margin: 0;
             color: var(--textBase);
         }
 
@@ -53,7 +58,6 @@
             border-radius: calc(var(--radiusMedium) * 1px);
             padding: var(--space-large);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-            border: 1px solid var(--primitivesColorAltGray100);
         }
 
         /* Button Component */
@@ -84,12 +88,6 @@
         </header>
 
         <section class="card">
-            <h3>Primary Actions</h3>
-            <p>Using <code>--buttonPrimaryBackground</code> and <code>--radiusSmall</code></p>
-            <button class="btn-primary">Primary Button</button>
-        </section>
-
-        <section class="card">
             <h3>Typography</h3>
             <div style="display: flex; flex-direction: column; gap: var(--space-medium);">
                 <div>
@@ -106,9 +104,15 @@
                 </div>
                 <div>
                     <p>Bodytext</p>
-                    <code class="token-name">--typographyFontSizeSmall</code>
+                    <code class="token-name">--typographyFontSizeBase</code>
                 </div>
             </div>
+        </section>
+
+        <section class="card">
+            <h3>Primary Actions</h3>
+            <p>Using <code>--buttonPrimaryBackground</code> and <code>--radiusSmall</code></p>
+            <button class="btn-primary">Primary Button</button>
         </section>
     </div>
 </body>
