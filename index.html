@@ -41,14 +41,15 @@
         }
 
         h1,
-        h2 {
+        h2,
+        h3 {
             margin-top: 0;
             color: var(--textBase);
         }
 
         /* Card Component */
         .card {
-            background-color: var(--primitivesColorBaseWhite);
+            background-color: var(--surfaceBase);
             border-radius: calc(var(--radiusMedium) * 1px);
             padding: var(--space-large);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -83,50 +84,13 @@
         </header>
 
         <section class="card">
-            <h2>Primary Actions</h2>
+            <h3>Primary Actions</h3>
             <p>Using <code>--buttonPrimaryBackground</code> and <code>--radiusSmall</code></p>
             <button class="btn-primary">Primary Button</button>
         </section>
 
         <section class="card">
-            <h2>Brand Blueprint</h2>
-            <div class="color-grid">
-                <!-- Blue Spectrum -->
-                <div class="color-card">
-                    <div class="color-swatch" style="background-color: var(--primitivesColorCoreBlue500)"></div>
-                    <div class="color-info">
-                        <span class="color-name">Core Blue 500</span>
-                        <code>--primitivesColorCoreBlue500</code>
-                    </div>
-                </div>
-                <div class="color-card">
-                    <div class="color-swatch" style="background-color: var(--primitivesColorCoreBlue750)"></div>
-                    <div class="color-info">
-                        <span class="color-name">Core Blue 750</span>
-                        <code>--primitivesColorCoreBlue750</code>
-                    </div>
-                </div>
-                <!-- Mint Spectrum -->
-                <div class="color-card">
-                    <div class="color-swatch" style="background-color: var(--primitivesColorWarmMint400)"></div>
-                    <div class="color-info">
-                        <span class="color-name">Warm Mint 400</span>
-                        <code>--primitivesColorWarmMint400</code>
-                    </div>
-                </div>
-                <!-- Pink Spectrum -->
-                <div class="color-card">
-                    <div class="color-swatch" style="background-color: var(--primitivesColorWarmPink500)"></div>
-                    <div class="color-info">
-                        <span class="color-name">Warm Pink 500</span>
-                        <code>--primitivesColorWarmPink500</code>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="card">
-            <h2>Typography</h2>
+            <h3>Typography</h3>
             <div style="display: flex; flex-direction: column; gap: var(--space-medium);">
                 <div>
                     <span
