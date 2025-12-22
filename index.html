@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,9 +40,10 @@
             gap: var(--space-xlarge);
         }
 
-        h1, h2 {
+        h1,
+        h2 {
             margin-top: 0;
-            color: var(--primitivesColorCoreBlue900);
+            color: var(--textBase);
         }
 
         /* Card Component */
@@ -49,7 +51,7 @@
             background-color: var(--primitivesColorBaseWhite);
             border-radius: calc(var(--radiusMedium) * 1px);
             padding: var(--space-large);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
             border: 1px solid var(--primitivesColorAltGray100);
         }
 
@@ -110,11 +112,13 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <header>
             <h1>Design Systems Token Test</h1>
-            <p>This page demonstrates the tokens generated from <span class="token-name">build/css/_variables.css</span>.</p>
+            <p>This page demonstrates the tokens generated from <span
+                    class="token-name">build/css/_variables.css</span>.</p>
         </header>
 
         <section class="card">
@@ -164,7 +168,9 @@
             <h2>Typography</h2>
             <div style="display: flex; flex-direction: column; gap: var(--space-medium);">
                 <div>
-                    <span style="font-size: calc(var(--typographyFontSizeXLarge) * 1px); font-weight: var(--typographyFontSizeFontWeightBold);">Heading X-Large</span>
+                    <span
+                        style="font-size: calc(var(--typographyFontSizeXLarge) * 1px); font-weight: var(--typographyFontSizeFontWeightBold);">Heading
+                        X-Large</span>
                     <br>
                     <code class="token-name">--typographyFontSizeXLarge</code>
                 </div>
@@ -187,4 +193,5 @@
         </section>
     </div>
 </body>
+
 </html>
