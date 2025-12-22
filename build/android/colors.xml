@@ -174,7 +174,7 @@
   <color name="primitives_color_alt_gray_800">#ff34424e</color>
   <color name="primitives_color_alt_gray_900">#ff1a2631</color>
   <color name="primitives_color_alt_gray_950">#ff00050e</color>
-  <color name="button_primary_background">#ff649be2</color>
+  <color name="button_primary_background">#ffb2cff5</color>
   <color name="button_primary_foreground">#ff0a2343</color>
   <color name="text_base">#ff061629</color>
   <color name="text_subtle">#ff62717d</color>

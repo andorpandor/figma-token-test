@@ -10,7 +10,7 @@ import UIKit
 
 public enum StyleDictionaryEnum {
     public static let base = 8
-    public static let buttonPrimaryBackground = UIColor(red: 0.392, green: 0.608, blue: 0.886, alpha: 1)
+    public static let buttonPrimaryBackground = UIColor(red: 0.698, green: 0.812, blue: 0.961, alpha: 1)
     public static let buttonPrimaryForeground = UIColor(red: 0.039, green: 0.137, blue: 0.263, alpha: 1)
     public static let fillSubtle = UIColor(red: 0.047, green: 0.212, blue: 0.424, alpha: 1)
     public static let fillSubtle2 = UIColor(red: 0.851, green: 0.914, blue: 1.000, alpha: 1)
@@ -219,6 +219,7 @@ public enum StyleDictionaryEnum {
     public static let typographyFontFamily = "nrk sans variable"
     public static let typographyFontSizeBase = 16
     public static let typographyFontSizeFontWeightBold = 750
+    public static let typographyFontSizeFontWeightMedium = 600
     public static let typographyFontSizeFontWeightNormal = 450
     public static let typographyFontSizeLarge = 24
     public static let typographyFontSizeMedium = 20

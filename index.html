@@ -59,10 +59,10 @@
         .btn-primary {
             background-color: var(--buttonPrimaryBackground);
             color: var(--buttonPrimaryForeground);
-            padding: var(--space-base) var(--space-medium);
+            padding: var(--space-base);
             border: none;
             border-radius: calc(var(--radiusSmall) * 1px);
-            font-weight: var(--typographyFontSizeFontWeightBold);
+            font-weight: var(--typographyFontSizeFontWeightMedium);
             font-size: calc(var(--typographyFontSizeBase) * 1px);
             cursor: pointer;
             transition: opacity 0.2s;
@@ -70,45 +70,6 @@
 
         .btn-primary:hover {
             opacity: 0.9;
-        }
-
-        /* Color Grid */
-        .color-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-            gap: var(--space-medium);
-            margin-top: var(--space-medium);
-        }
-
-        .color-card {
-            border: 1px solid var(--primitivesColorAltGray200);
-            border-radius: calc(var(--radiusSmall) * 1px);
-            overflow: hidden;
-            background: white;
-        }
-
-        .color-swatch {
-            height: 100px;
-            width: 100%;
-        }
-
-        .color-info {
-            padding: var(--space-small);
-            font-size: 12px;
-            color: var(--textSubtle);
-        }
-
-        .color-name {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 4px;
-        }
-
-        .token-name {
-            font-family: monospace;
-            background: var(--primitivesColorAltGray50);
-            padding: 2px 4px;
-            border-radius: 4px;
         }
     </style>
 </head>

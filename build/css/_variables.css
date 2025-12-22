@@ -173,7 +173,7 @@
   --primitivesColorAltGray800: #34424e;
   --primitivesColorAltGray900: #1a2631;
   --primitivesColorAltGray950: #00050e;
-  --buttonPrimaryBackground: #649be2;
+  --buttonPrimaryBackground: #b2cff5;
   --buttonPrimaryForeground: #0a2343;
   --textBase: #061629;
   --textSubtle: #62717d;
@@ -191,6 +191,7 @@
   --typographyFontSizeSmall: 12;
   --typographyFontSizeFontWeightNormal: 450;
   --typographyFontSizeFontWeightBold: 750;
+  --typographyFontSizeFontWeightMedium: 600;
   --typographyFontSizeMedium: 20;
   --typographyFontSizeLarge: 24;
   --typographyFontSizeXLarge: 32;
