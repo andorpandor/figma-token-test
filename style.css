@@ -1,0 +1,34 @@
+/* Primary Button Implementation based on Figma Design */
+
+.button-primary {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  /* Padding via Tokens */
+  padding: calc(var(--tokens-measures-spacing-12) * 1px) calc(var(--tokens-measures-spacing-16) * 1px);
+
+  /* Colors via Tokens (Figma inverses background/foreground token usages here) */
+  background-color: var(--tokens-color-button-primary-foreground);
+  color: var(--tokens-color-button-primary-background);
+
+  /* Borders */
+  border: none;
+  /* Figma estimation 0px */
+  border-radius: 0;
+
+  /* Typography via Tokens (using calc to append 'px' unit since variables are numeric) */
+  font-family: var(--tokens-typography-font-family), "Helvetica Neue", sans-serif;
+  font-size: calc(var(--tokens-typography-font-size-base) * 1px);
+  font-weight: var(--tokens-typography-font-weight-bold);
+  line-height: calc(var(--tokens-typography-lineheight-base) * 1px);
+  letter-spacing: calc(var(--tokens-typography-letter-spacing-none) * 1px);
+  leading-trim: both;
+  text-edge: cap;
+
+  /* Additional Interaction Styles */
+  cursor: pointer;
+  appearance: none;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+}
